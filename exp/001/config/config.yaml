@@ -10,8 +10,11 @@ data:
   test_path: ${data.input_root}/test.csv
   sample_submission_path: ${data.input_root}/sample_submission.csv
   mapping_path: ${data.input_root}/misconception_mapping.csv
+  mapping_meta_path: ${data.input_root}/mapping_meta.parquet
   output_root: ../../data/output
   results_root: ../../results
   results_path: ${data.results_root}/${exp_number}/${run_time}
 
 seed: 42
+
+embed_model: BAAI/bge-large-en-v1.5
