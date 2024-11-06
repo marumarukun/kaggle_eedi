@@ -18,3 +18,4 @@ data:
 seed: 42
 
 embed_model: BAAI/bge-large-en-v1.5
+llm_model: Qwen/Qwen2.5-32B-Instruct-AWQ
