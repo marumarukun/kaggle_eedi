@@ -10,3 +10,6 @@ wheels/
 .venv
 
 results/
+
+# kaggle codeから拝借してきたモデル
+data/Joseph-Eedi-finetuned-bge
