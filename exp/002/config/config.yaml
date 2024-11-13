@@ -1,0 +1,20 @@
+defaults:
+  - _self_
+  - model@model
+
+exp_number: base   # 実験番号(実行時に書き換え)
+run_time: base     # 実験時間(実行時に書き換え)
+
+data:
+  input_root: ../../data/input
+  train_path: ${data.input_root}/train.csv
+  test_path: ${data.input_root}/test.csv
+  sample_submission_path: ${data.input_root}/sample_submission.csv
+  mapping_path: ${data.input_root}/misconception_mapping.csv
+  mapping_meta_path: ${data.input_root}/mapping_meta.parquet
+  output_root: ../../data/output
+  results_root: ../../results
+  results_path: ${data.results_root}/${exp_number}/${run_time}
+
+seed: 42
+k: 25
