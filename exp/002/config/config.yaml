@@ -18,3 +18,4 @@ data:
 
 seed: 42
 k: 25
+n_splits: 4
